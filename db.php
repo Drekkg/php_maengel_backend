@@ -10,12 +10,31 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization");
 header("Content-Type: application/json"); 
-
+<?php
+// Load DB_PASSWORD from .env file
+$envFile = __DIR__ . '/.env'; // Define the path to the .env file
+if (file_exists($envFile)) { // Check if the .env file exists
+    $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); 
+    // Read the .env file into an array, each line becomes an array element
+    foreach ($lines as $line) { // Loop through each line
+        if (strpos(trim($line), 'DB_PASSWORD=') === 0) { 
+            // Check if the line starts with 'DB_PASSWORD='
+            $password = trim(explode('=', $line, 2)[1]); 
+            // Split the line at the '=' sign and take the second part (the password)
+            break; // Exit the loop once the password is found
+        }
+    }
+} else {
+    error_log("Environment file (.env) not found."); 
+    // Log an error if the .env file is missing
+    die("Environment configuration missing."); 
+    // Stop execution if the .env file is not found
+}
 
 // Define database connection variables
 $servername = localhost;
 $username = getenv('DB_USERNAME');
-$password = getenv('DB_PASSWORD');
+//$password = getenv('DB_PASSWORD');
 $dbname = getenv('DB_NAME');
 
 
