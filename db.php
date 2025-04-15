@@ -10,7 +10,8 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization");
 header("Content-Type: application/json"); 
-<?php
+
+
 // Load DB_PASSWORD from .env file
 $envFile = __DIR__ . '/.env'; // Define the path to the .env file
 if (file_exists($envFile)) { // Check if the .env file exists
