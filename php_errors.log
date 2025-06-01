@@ -1,0 +1,43 @@
+[29-May-2025 08:28:58 Europe/Berlin] Environment file (.env) not found.
+[29-May-2025 08:33:46 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:49 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:52 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:53 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:33:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:19 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:21 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:22 Europe/Berlin] PHP Warning:  Undefined variable $password in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
+[29-May-2025 08:34:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php:44
+Stack trace:
+#0 /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php(44): mysqli->__construct()
+#1 {main}
+  thrown in /home/derek/Desktop/Development/PHP_maengel/php_maengel_backend/db.php on line 44
